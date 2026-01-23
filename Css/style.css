@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: rgb(129, 129, 233);
+    }
+
+#box{
+    height: 30%;
+    width: 50%;
+    background-color: rgb(98, 98, 51);
+    margin-top: 30px;
+}
+
+#test{
+    margin-top: 30px;
+    width: 60vw;
+    height: 50vh;
+    background-color: brown;
+}
+
