@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#parent{
+    height: 100px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    left: 80%;
+}
+
+#child1{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(255, 107, 107);
+}
+
+#child2{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(185, 57, 57);
+}
