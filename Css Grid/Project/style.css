@@ -80,6 +80,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 #arrow{
@@ -100,3 +101,78 @@ html,body{
     font-size: 40px;
     font-weight: 100;
 }
+
+@media (max-width:600px){
+    #main{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px 34% 8%;
+    
+}
+#right{
+    grid-column: 1/4;
+    grid-row: 4;
+    padding: 20px;
+    padding-right: 100px;
+}
+#left-top-left{
+    padding: 40px;
+}
+#left-top-right{
+    justify-self: right;
+    padding: 20px;
+    text-align: right;
+}
+#left-top-right h4{
+    display: none;
+}
+#left-top-right h5{
+    display: none;
+}
+#left-top-right h6{
+    display: initial;
+    font-size: 20px;
+    padding: 20px 20px;
+    
+}
+#left-center{
+    padding: 30px;
+}
+#left-center h1{
+    font-size: 15vw;
+    line-height: 15vw;
+}
+#left-center h1:nth-child(2n){
+    
+    text-align: right;
+}
+#left-bottom{
+    padding: 5px 20px;
+}
+
+#left-bottom h1{
+    width: 90%;
+    font-size: 10px;
+}
+
+#square{
+    height: 20px;
+    width: 20px;
+}
+
+
+#arrow{
+    top: 52%;
+    left: 50%;
+    padding: 10px;
+    rotate: 90deg;
+}
+
+#arrow{
+    font-size: 20px;
+    font-weight: 100;
+}
+#right video{
+    height: 42vh;
+}
+}
+
