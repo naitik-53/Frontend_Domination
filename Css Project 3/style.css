@@ -88,12 +88,15 @@ html,body{
 }
 
 #text-content::-webkit-scrollbar{
-    display: none;
-    background-color: transparent
+    /* display: none; */
+    background-color: transparent;
+    height: 7px;
 }
+
 #text-content::-webkit-scrollbar-thumb{
     background-color: orangered;
 }
+
 .elem{
     height: 100%;
     width: 50%;
