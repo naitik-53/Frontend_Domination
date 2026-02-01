@@ -43,6 +43,21 @@ h2{
 
 #rem{
     height: 200px;
-    width: 400px;
+    width: 500px;
     background-color: beige;
 }
+
+#rem h2{
+    font-size: 10rem;
+
+}
+#rem h1{
+    font-size: 13rem;
+
+}
+#rem h3{
+    font-size: 14rem;
+    color: white;
+}
+
+
