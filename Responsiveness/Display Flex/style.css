@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.child{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border: 2px solid white;
+}
