@@ -46,9 +46,11 @@ html,body{
 }
 
 #center h1{
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 4vw;
     font-weight: 400;
-    line-height: 70px;
+    /* line-height: 70px; */
+    line-height: 3.8vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -60,8 +62,8 @@ html,body{
 }
 
 #center-in p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.13vw;
+    line-height: 1.9vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -105,4 +107,68 @@ html,body{
   background-image: url(https://images.unsplash.com/photo-1617551307578-7f5160d6615e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: 0 20%;
+}
+
+@media (max-width:600px) {
+    @media (max-width: 600px) {
+
+  #nav{
+    height: 60px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  #nav h4{
+    font-size: 16px;
+    display: none; /* mobile me sirf icon rakhna clean lagta hai */
+  }
+
+  #nav i{
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #center{
+    padding: 20px;
+  }
+
+  #center h1{
+    font-size: 11vw;
+    line-height: 10vw;
+  }
+
+  #center-in{
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  #center-in p{
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  #right{
+    width: 100%;
+  }
+
+  .elem{
+    padding: 12px 0;
+  }
+
+  .elem a{
+    font-size: 16px;
+  }
+
+  .elem i{
+    font-size: 20px;
+    opacity: 1; /* mobile me hover nahi hota */
+  }
+
+  #bottom{
+    height: 50vh;
+    background-position: center;
+  }
+}
+
 }
