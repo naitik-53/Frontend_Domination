@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 500px;
+    width: 600px;
+    background-color: crimson;
+}
+
+#box1{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(60, 220, 20);
+}
+
+#box2{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(204, 115, 133);
+}
+
+#box3{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(20, 67, 220);
+}
+

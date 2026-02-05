@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 50px 40px;
+}
+
+#navpart2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
