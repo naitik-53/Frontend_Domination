@@ -63,12 +63,82 @@ html,body{
     background-color: white;
 }
 
- #navpart3 #btn2{
+#navpart3{
+    display: flex;
+    align-items: center;
+}
+
+#navbuttons{
+    display: flex;
+    gap: 8px;
+}
+
+#navpart3 #btn2{
     background-color: orangered;
     color: white;
     border: none;
 }
 
 #h1{
-    color: red;
+    /* color: red; */
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btmleft{
+    position:absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 18px;
+}
+
+#btnsbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}
+
+#socialicons{
+    display: flex;
+    gap: 8px;
+}
+
+#btnsbottom #text h5{
+    font-size: 18px;
+    font-weight: 500;
 }
